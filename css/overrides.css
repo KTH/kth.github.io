@@ -7,7 +7,8 @@ body {
 
 .github.wrapper {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 .github.wrapper .github.header {
