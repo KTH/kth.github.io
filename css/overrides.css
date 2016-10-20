@@ -1,5 +1,37 @@
 body {
-  padding: 20px;
   background: #fff;
+  font-family: arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.github.wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.github.wrapper .github.header {
+  padding: 20px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.github.wrapper .github.header img {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.github.wrapper .github.header h1 {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.github.wrapper .github.content{
+  background: #e1e1e1;
+  padding: 20px;
   font-family: arial, helvetica, sans-serif;
 }
