@@ -46,9 +46,9 @@ body {
 }
 
 .github.wrapper .github.content {
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   font-family: arial, helvetica, sans-serif;
-  margin: 20px;
+  margin: 0 20px 20px 20px;
   background: #fff;
   width: calc(100% - 80px);
 }
