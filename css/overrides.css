@@ -53,6 +53,13 @@ body {
   width: calc(100% - 80px);
 }
 
+
+.github.wrapper .github.content .article h1.title {
+  font-weight: 400;
+  font-family: Georgia Regular,Georgia,garamond pro,garamond,times new roman,times,serif;
+  font-size: 3.2rem;
+}
+
 .github.wrapper .github.content .lead {
   font-family: Georgia Regular,Georgia,garamond pro,garamond,times new roman,times,serif;
   font-size: 1.8rem;
