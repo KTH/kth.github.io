@@ -1,5 +1,11 @@
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+  color: #000;
+}
+
 body {
-  background: #e3e5e3;
+  background: rgb(227, 229, 227);
   font-family: arial, helvetica, sans-serif;
   padding: 0;
   margin: 0;
@@ -13,9 +19,12 @@ body {
 }
 
 .github.wrapper .github.header {
-  padding: 20px;
-  margin: 0px;
-  overflow: hidden;
+  padding: 0 0 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  width: calc(100% - 40px);
 }
 
 .github.wrapper .github.header img {
@@ -25,6 +34,10 @@ body {
 }
 
 .github.wrapper .github.header h1 {
+  color: #000;
+  text-decoration: none;
+}
+.github.wrapper .github.header h1 {
   font-size: 14px;
   font-weight: bold;
   float: right;
@@ -32,7 +45,30 @@ body {
   margin: 0 0 0 20px;
 }
 
-.github.wrapper .github.content{
+.github.wrapper .github.content {
   padding: 20px;
   font-family: arial, helvetica, sans-serif;
+  margin: 20px;
+  background: #fff;
+  width: calc(100% - 80px);
+}
+
+.github.wrapper .github.content .lead {
+  font-family: Georgia Regular,Georgia,garamond pro,garamond,times new roman,times,serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  max-width: 820px;
+}
+
+.github.wrapper .github.content img {
+  max-width: 100%;
+}
+.github.wrapper .github.content h2 {
+  font-size: 1.8rem;
+  color: #8b9f22;
+  font-weight: 700;
+  line-height: auto;
+}
+.github.wrapper .github.content p {
+  max-width: 680px;
 }
