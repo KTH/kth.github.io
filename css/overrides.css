@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 160%;
+  color: #262626;
 }
 
 .github.wrapper {
@@ -68,11 +69,7 @@ body {
   max-width: 100%;
 }
 .github.wrapper .github.content h2 {
-  font-size: 1.8rem;
-  color: #8b9f22;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: auto;
-}
-.github.wrapper .github.content p {
-  max-width: 680px;
 }
